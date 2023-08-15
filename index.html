@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Hallo
+            </div>
+
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skill">social media</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="coding girl.png" alt="gambar coding">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, I'm </h3>
+                <h2>Nensi Oktavia Rahmadani</h2>
+                <p>You can call me Nensii, I'm now in grade 12 majoring in RPL at SMK KRIAN 1 Sidoarjo. The reason I chose this major is because nowadays technology like this is developing very rapidly, factories also need a lot of programmers, and jobs like this don't require a lot of energy.</p>
+
+                <button id="downloadButton">
+                    <a href="lap.pdf">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>Social Media</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="ignw-removebg-preview.png" alt="gambar instagram" width="20%">
+
+                <h3>Instagram</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="images-removebg-preview.png" alt="gambar Facebook" width="20%">
+
+                <h3>Facebook</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="istockphoto-848189248-170667a-removebg-preview.png" alt="gambar WhatsApp" width="10%">
+
+                <h3>WhatsApp</h3>
+            </section>
+            </div>
+        </article>
+
+        <form id="contact">
+            <fieldset>
+                <h2>Contact Me</h2>
+                <p>please don't spam, thank you.
+                </p>
+
+                <label for="nama">Name :</label><br>
+                <input type="text" id="nama"><br>
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email"><br>
+
+                <label for="pesan">Messege :</label><br>
+                <textarea id="pesan" cols="30" rows="10"></textarea> 
+                <br>
+
+                <button>Send</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Pemrograman Web &copy; Nensioktaviaa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
